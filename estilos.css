@@ -1,0 +1,135 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: "Staatliches", serif;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-family: "Bevan", serif;
+}
+
+nav a:hover {
+    color: #b36b00;
+     /* Highlight color */
+}
+
+/* Main Section */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h3{
+    font-family: "Geist Mono", monospace;
+    width: 80%;
+    padding: 10px;
+}
+
+.contact-info, .map {
+    width: 80%;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f0e4d7, #e3c6a6); /* Linear gradient background */
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 20px auto
+}
+
+.contact .contact-info{
+    width: 45%;
+    display: flex;
+}
+
+.contact-info h2, .contact-form h2 {
+    margin-bottom: 15px;
+    font-family: "Carter One", system-ui;
+}
+
+.table p {
+    margin-bottom: 10px;
+}
+
+#img{
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 5px;
+    
+}
+
+/* Form Styles */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #b36b00;
+}
+
+/* Map Section */
+.map iframe {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-family: "Geist Mono", monospace;
+}
+
+footer .social-icons {
+    width: 5px;
+    height: min-content;
+    margin-top: 30px;
+    display: flex;
+}
